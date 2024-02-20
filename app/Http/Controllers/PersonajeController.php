@@ -64,7 +64,7 @@ class PersonajeController extends Controller
 
             return view('marvel.index', ['characters'=>$characters, 'offset'=>$offset, 'total'=>$total]);
         } else {
-            // Mostrar un mensaje de error si la solicitud no fue exitosa
+            // Mostrar un mensaje de error
             return back()->with('error', 'Error al recuperar los personajes de Marvel desde la API.');
         }
     }
