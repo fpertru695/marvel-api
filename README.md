@@ -45,6 +45,6 @@ Se genera PersonajeController para definir las funciones con las que trabajar, s
 
 ### 5. Adicionales
 - Implementar paginación de resultados 
-- Buscador, filtra por nombre de personaje.
+- Buscador, filtra por nombre de personaje. **(WIP)**
 - Al cargar personajes en la vista index, se realiza una consulta a la BD y los guarda si no están guardados.
 - Si el personaje existe en la BD local o se han agotado consultas en la API, carga directamente el personaje localmente **(WIP)**
