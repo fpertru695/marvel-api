@@ -23,7 +23,7 @@ class PersonajeController extends Controller
 
     public function index(Request $request, $offset=0)
     {
-        // Realizar la solicitud a la API de Marvel para obtener 100 personajes de Marvel.
+        // Realizar la solicitud a la API de Marvel
         $response = Http::get('https://gateway.marvel.com/v1/public/characters?offset=' . $offset . '&', [
             'apikey' => config('services.marvel.public_key'),
             'ts' => time(),
