@@ -5,7 +5,7 @@
         <h1 class="text-3xl font-bold mb-4">Personajes de Marvel</h1>
         <form action="{{ route('index') }}" method="GET" class="mb-4">
             <div class="flex">
-                <input type="text" name="search" class="form-input w-full rounded-l-md" placeholder="Buscar por nombre">
+                <input type="text" name="search" class="form-input w-full rounded-l-md" placeholder=" Buscar por nombre . . . ">
                 <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded-r-md">Buscar</button>
             </div>
         </form>
