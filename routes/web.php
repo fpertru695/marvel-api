@@ -27,7 +27,7 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-Route::get('/personajes', [PersonajeController::class, 'index'])->name('index');
+Route::get('/personajes/{offset?}', [PersonajeController::class, 'index'])->name('index')->where('offset', '[0-9]+');;
 Route::get('/personajes/{id}', [PersonajeController::class, 'show'])->name('show');
 
 require __DIR__.'/auth.php';
