@@ -44,7 +44,7 @@ Se genera PersonajeController para definir las funciones con las que trabajar, s
 2. show: Muestra de forma individual a un personaje de Marvel que hayamos visto en la vista index.
 
 ### 5. Adicionales
-- Implementar paginación de resultados (WIP)
-- Buscador, filtra por nombre de personaje (WIP)
+- Implementar paginación de resultados 
+- Buscador, filtra por nombre de personaje **(WIP)**
 - Al cargar personajes en la vista index, se realiza una consulta a la BD
-- Si el personaje existe en la BD local o se han agotado consultas en la API, carga directamente el personaje localmente (WIP)
+- Si el personaje existe en la BD local o se han agotado consultas en la API, carga directamente el personaje localmente **(WIP)**
