@@ -1,7 +1,8 @@
 Base de Datos: Marvel
 
-### 1. Usar clave API
+### 1. Usar clave API 
 
+- Incluir en .env:
  ```
    MARVEL_PUBLIC_KEY=tu_clave_publica_de_marvel
    MARVEL_PRIVATE_KEY=tu_clave_privada_de_marvel
