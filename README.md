@@ -22,8 +22,8 @@ Base de Datos: Marvel
 ### 2. Migraciones y modelos
  Para la tabla personaje se definen los siguientes modelos:
    - id: Numero identificativo del personaje.
-   - name: ombre del personaje.
-   - description:descripción del personaje. Es nullable porque algunos personajes pueden no tener descripción.
+   - name: nombre del personaje.
+   - description: descripción del personaje. Es nullable porque algunos personajes pueden no tener descripción.
    - thumbnail: Almacena la URL de la imagen del personaje.
    - resource_uri: Almacena la URI de recursos asociados al personaje.
    - comics_available, series_available, stories_available, events_available: Campos para almacenar la cantidad de cómics, series, historias y eventos disponibles para el personaje respectivamente.
